@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Proxima";
+  src: url("Proxima-Nova-Black.otf");
+}
+
+.skin-blue .main-header .logo, .main-header .navbar, .main-header .navbar .sidebar-toggle {
+    background: transparent !important;
+}
+.main-header {
+    background: -webkit-gradient(linear,left top,right top,from(#E83E8C),to(#342b60));
+    background: -webkit-linear-gradient(left,#E83E8C,#342b60);
+    background: linear-gradient(90deg,#E83E8C,#342b60);
+}
+
+.main-header .logo {
+  height: 83px;
+  width: 523px;
+}
+
+.main-sidebar{
+    padding-top: 100px;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+  border-bottom: 2px solid #E83E8C;
+  font-weight: bold;
+}
+
+.form-control, .selectize-input, .selectize-control.single .selectize-input {
+    border-bottom: solid 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;   
+    background: #efefef;
+}
+
+/*Настроить потом кнопку загрузки файла!*/
+
+ .btn-file {
+    background: #E40D7E;
+    color: #FFFFFF;
+    border-color: #E40D7E;
+    border-radius: 0px 0px 0px 0px;
+    border-style: solid;
+}
+
+/*Переопределение тоже не работает*/
+.action-button .shiny-bound-input:active {
+    background: #E40D7E; 
+    color: #FFFFFF;
+    border-color: #E40D7E;
+    border-radius: 0px;
+    padding: 6px 12px;
+}
+
+.models-info p {
+  text-align: justify;
+}
+
+.models-info p strong {
+  color: #E40D7E;
+}
+
+.progress-bar {
+      background-color: #E83E8C) !important;
+    border-radius: 0px !important;
+}
+
+.blockInfo {
+  margin: 5px;
+  padding: 5px;
+}
+
+.blockImg {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.blockText {
+  text-align: justify;
+}
+
+.blockText h2 {
+  font-size: 48px;
+  text-align: center;
+  background: -webkit-linear-gradient(#e4067e, #342b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: "Proxima";
+}
+
+.left {
+    float: right;
+    margin-left: 10px;
+}
+
+.infoImg {
+  margin: 2px;
+}
